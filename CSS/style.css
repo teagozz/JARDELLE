@@ -1,0 +1,28 @@
+*{
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #634F2C;
+    padding: 20px;
+    text-align: center;
+}
+
+a, button {
+    text-decoration: none;
+    color: #634F2C;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #634F2C;
+    padding: 10px;
+}
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
