@@ -172,7 +172,7 @@ function finalizarPedido() {
     return;
   }
 
-  let mensagem = "✨ *Novo Pedido - JARDELLE* ✨\n\n";
+  let mensagem = " *Novo Pedido - JARDELLE* \n\n";
 
   carrinho.forEach((item) => {
     const subtotal = item.preco * item.quantidade;
@@ -189,9 +189,9 @@ function finalizarPedido() {
     0,
   );
 
-  mensagem += `💎 *Total do Pedido:* ${formatarPreco(total)}\n\n`;
+  mensagem += `*Total do Pedido:* ${formatarPreco(total)}\n\n`;
 
-  mensagem += "Olá! Gostaria de finalizar este pedido.";
+  mensagem += `Olá! Gostaria de finalizar este pedido.`;
 
   const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     mensagem,
