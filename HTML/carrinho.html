@@ -1,0 +1,119 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrinho • JARDELLE</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header class="header-container">
+
+        <nav class="header-nav">
+
+            <div class="nav-menu">
+
+                <a href="./index.html">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Continuar Comprando
+                </a>
+
+            </div>
+
+            <div class="nav-actions">
+
+                <span class="cart-page-count">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-items-count">
+                        0
+                    </span>
+                    itens
+                </span>
+            </div>
+        </nav>
+
+        <div class="header-content">
+
+            <h1 class="header-title">
+                Seu Carrinho
+            </h1>
+
+            <p class="header-subtitle">
+
+                Revise seus produtos antes de enviar o pedido.
+            </p>
+        </div>
+    </header>
+
+    <main class="main-container">
+
+        <section class="cart-page-section">
+
+            <div class="cart-items-container" id="cart-items-container">
+            </div>
+
+            <div class="cart-summary">
+
+                <div class="cart-summary-info">
+
+                    <span>
+                        Total de itens:
+                    </span>
+
+                    <strong id="cart-total-quantity">
+                        0
+                    </strong>
+
+                </div>
+
+                <div class="cart-summary-info">
+
+                    <span>
+                        Valor estimado:
+                    </span>
+
+                    <strong id="cart-total-price">
+                        R$ 0,00
+                    </strong>
+
+                </div>
+
+                <button class="btn-whatsapp-checkout" id="checkout-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Finalizar Pedido pelo WhatsApp
+                </button>
+
+                <button class="btn-clear-cart" id="clear-cart">
+                    Limpar Carrinho
+
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-container">
+
+        <p>
+            &copy; 2026 JARDELLE • Desenvolvido por
+            <a href="https://www.linkedin.com/in/thiagodiasj/" target="_blank">
+                Thiago Dias
+            </a>
+        </p>
+
+    </footer>
+
+    <script src="./JAVASCRIPT/carrinho.js"></script>
+</body>
+
+</html>
